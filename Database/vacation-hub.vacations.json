@@ -1,0 +1,285 @@
+[{
+  "_id": {
+    "$oid": "66224694da2b49daeb9b2f5c"
+  },
+  "destination": "Paris, France",
+  "description": "Experience the romantic ambiance of the City of Light.",
+  "startDate": {
+    "$date": "2024-05-05T00:00:00.000Z"
+  },
+  "endDate": {
+    "$date": "2024-05-18T00:00:00.000Z"
+  },
+  "price": 8851,
+  "imageName": "def8539b-3ed2-4379-a211-3664043a7335.jpg"
+},
+{
+  "_id": {
+    "$oid": "66224694da2b49daeb9b2f5d"
+  },
+  "destination": "Rio de Janeiro, Brazil",
+  "description": "Experience the lively Carnival festival and breathtaking landscapes.",
+  "startDate": {
+    "$date": "2024-01-27T00:00:00.000Z"
+  },
+  "endDate": {
+    "$date": "2024-02-03T00:00:00.000Z"
+  },
+  "price": 9635,
+  "imageName": "775b7db8-0343-4f73-a69e-8c274aeea965.jpg"
+},
+{
+  "_id": {
+    "$oid": "66224694da2b49daeb9b2f5f"
+  },
+  "destination": "New York, USA",
+  "description": "Explore the bustling streets and iconic skyline of the Big Apple.",
+  "startDate": {
+    "$date": "2023-08-27T00:00:00.000Z"
+  },
+  "endDate": {
+    "$date": "2023-08-29T00:00:00.000Z"
+  },
+  "price": 7518,
+  "imageName": "e6f0d39e-4fa4-47ab-ace6-99042c44c636.jpg"
+},
+{
+  "_id": {
+    "$oid": "66224694da2b49daeb9b2f60"
+  },
+  "destination": "Cape Town, South Africa",
+  "description": "Visit the vibrant and culturally rich city at the tip of the African continent.",
+  "startDate": {
+    "$date": "2023-07-27T00:00:00.000Z"
+  },
+  "endDate": {
+    "$date": "2023-08-01T00:00:00.000Z"
+  },
+  "price": 3750,
+  "imageName": "31033b95-4962-42d3-8c1a-b06672106eb9.jpg"
+},
+{
+  "_id": {
+    "$oid": "66224694da2b49daeb9b2f61"
+  },
+  "destination": "Tokyo, Japan",
+  "description": "Dive into the bustling heart of Japan with cutting-edge technology and rich history.",
+  "startDate": {
+    "$date": "2023-12-31T00:00:00.000Z"
+  },
+  "endDate": {
+    "$date": "2024-01-08T00:00:00.000Z"
+  },
+  "price": 9171,
+  "imageName": "64a67362-3579-4fad-8103-95d4d0e74725.jpg"
+},
+{
+  "_id": {
+    "$oid": "66224694da2b49daeb9b2f62"
+  },
+  "destination": "New York, USA",
+  "description": "Explore the bustling streets and iconic skyline of the Big Apple.",
+  "startDate": {
+    "$date": "2024-08-13T00:00:00.000Z"
+  },
+  "endDate": {
+    "$date": "2024-08-19T00:00:00.000Z"
+  },
+  "price": 5261,
+  "imageName": "03347694-ad19-48cb-a533-93d1dafd63d8.jpg"
+},
+{
+  "_id": {
+    "$oid": "66224694da2b49daeb9b2f63"
+  },
+  "destination": "Cairo, Egypt",
+  "description": "Discover the ancient wonders of the Egyptian pyramids.",
+  "startDate": {
+    "$date": "2024-09-02T00:00:00.000Z"
+  },
+  "endDate": {
+    "$date": "2024-09-08T00:00:00.000Z"
+  },
+  "price": 3236,
+  "imageName": "130d36ab-05cd-422a-ab45-9c633e041b74.jpg"
+},
+{
+  "_id": {
+    "$oid": "66224694da2b49daeb9b2f64"
+  },
+  "destination": "Sydney, Australia",
+  "description": "Enjoy the stunning harbor, beaches, and the famous Sydney Opera House.",
+  "startDate": {
+    "$date": "2023-10-03T00:00:00.000Z"
+  },
+  "endDate": {
+    "$date": "2023-10-09T00:00:00.000Z"
+  },
+  "price": 5890,
+  "imageName": "5e359d2c-4890-40be-ac26-c188f0be1169.jpg"
+},
+{
+  "_id": {
+    "$oid": "66224694da2b49daeb9b2f65"
+  },
+  "destination": "Bangkok, Thailand",
+  "description": "Indulge in the vibrant street life and the rich flavors of Thai cuisine.",
+  "startDate": {
+    "$date": "2024-02-11T00:00:00.000Z"
+  },
+  "endDate": {
+    "$date": "2024-02-16T00:00:00.000Z"
+  },
+  "price": 2598,
+  "imageName": "dcd80909-7e88-4209-bbc2-910a12507cb8.jpg"
+},
+{
+  "_id": {
+    "$oid": "66224716da2b49daeb9b2f67"
+  },
+  "destination": "Venice, Italy",
+  "description": "Experience the magic of floating city and its historical canals.",
+  "startDate": {
+    "$date": "2024-04-15T00:00:00.000Z"
+  },
+  "endDate": {
+    "$date": "2024-04-22T00:00:00.000Z"
+  },
+  "price": 6250,
+  "imageName": "08045224-1c8b-4e2c-9f67-d7a20fa57e92.jpg"
+},
+{
+  "_id": {
+    "$oid": "66224716da2b49daeb9b2f68"
+  },
+  "destination": "Barcelona, Spain",
+  "description": "Explore the artistic treasures and vibrant street life of Barcelona.",
+  "startDate": {
+    "$date": "2023-11-20T00:00:00.000Z"
+  },
+  "endDate": {
+    "$date": "2023-11-27T00:00:00.000Z"
+  },
+  "price": 7879,
+  "imageName": "3dfb302c-1a6e-488c-9cd4-aee664a96596.jpg"
+},
+{
+  "_id": {
+    "$oid": "66224716da2b49daeb9b2f69"
+  },
+  "destination": "Cancun, Mexico",
+  "description": "Sunbathe on white sandy beaches and swim in crystal clear waters.",
+  "startDate": {
+    "$date": "2024-01-10T00:00:00.000Z"
+  },
+  "endDate": {
+    "$date": "2024-01-17T00:00:00.000Z"
+  },
+  "price": 5430,
+  "imageName": "8097c3d2-7104-4b0f-b9d2-d762a36caf3e.jpg"
+},
+{
+  "_id": {
+    "$oid": "66224716da2b49daeb9b2f6a"
+  },
+  "destination": "Beijing, China",
+  "description": "Walk through history by visiting the Great Wall and the Forbidden City.",
+  "startDate": {
+    "$date": "2024-03-05T00:00:00.000Z"
+  },
+  "endDate": {
+    "$date": "2024-03-12T00:00:00.000Z"
+  },
+  "price": 8600,
+  "imageName": "84fb33f6-4630-4f8d-9d1d-eaa61a5edf42.jpg"
+},
+{
+  "_id": {
+    "$oid": "66224716da2b49daeb9b2f6b"
+  },
+  "destination": "Cairo, Egypt",
+  "description": "Marvel at the ancient pyramids and explore the rich Egyptian culture.",
+  "startDate": {
+    "$date": "2024-05-18T00:00:00.000Z"
+  },
+  "endDate": {
+    "$date": "2024-05-25T00:00:00.000Z"
+  },
+  "price": 4800,
+  "imageName": "78344236-9747-4cd2-b07d-d52e5f49e7ce.jpg"
+},
+{
+  "_id": {
+    "$oid": "66224716da2b49daeb9b2f6c"
+  },
+  "destination": "Moscow, Russia",
+  "description": "Experience the grandeur of the Kremlin and the historic Red Square.",
+  "startDate": {
+    "$date": "2024-07-20T00:00:00.000Z"
+  },
+  "endDate": {
+    "$date": "2024-07-27T00:00:00.000Z"
+  },
+  "price": 6200,
+  "imageName": "0abd448b-4bda-4470-930b-ff799bdc3add.jpg"
+},
+{
+  "_id": {
+    "$oid": "66224716da2b49daeb9b2f6d"
+  },
+  "destination": "Istanbul, Turkey",
+  "description": "Cross the continents of Europe and Asia and discover the city's rich history.",
+  "startDate": {
+    "$date": "2024-09-15T00:00:00.000Z"
+  },
+  "endDate": {
+    "$date": "2024-09-22T00:00:00.000Z"
+  },
+  "price": 4700,
+  "imageName": "8c1ab22e-5569-4726-aea2-85ff767099b2.jpg"
+},
+{
+  "_id": {
+    "$oid": "66224716da2b49daeb9b2f6e"
+  },
+  "destination": "Kyoto, Japan",
+  "description": "Visit the city of a thousand temples with breathtaking cherry blossoms.",
+  "startDate": {
+    "$date": "2024-04-01T00:00:00.000Z"
+  },
+  "endDate": {
+    "$date": "2024-04-08T00:00:00.000Z"
+  },
+  "price": 9500,
+  "imageName": "858fb14c-57ef-410e-9f02-be73313e8274.jpg"
+},
+{
+  "_id": {
+    "$oid": "66224716da2b49daeb9b2f6f"
+  },
+  "destination": "Dubai, UAE",
+  "description": "Experience unparalleled luxury and futuristic architecture in Dubai.",
+  "startDate": {
+    "$date": "2024-11-12T00:00:00.000Z"
+  },
+  "endDate": {
+    "$date": "2024-11-19T00:00:00.000Z"
+  },
+  "price": 10000,
+  "imageName": "38bb8836-926e-4153-aa80-82e84fe93171.jpg"
+},
+{
+  "_id": {
+    "$oid": "66224716da2b49daeb9b2f70"
+  },
+  "destination": "Zurich, Switzerland",
+  "description": "Enjoy the pristine landscapes and rich chocolate in Zurich.",
+  "startDate": {
+    "$date": "2023-12-25T00:00:00.000Z"
+  },
+  "endDate": {
+    "$date": "2024-01-01T00:00:00.000Z"
+  },
+  "price": 8800,
+  "imageName": "22e44959-b402-46a0-a602-051030294c80.jpg"
+}]

@@ -1,0 +1,442 @@
+{
+	"info": {
+		"_postman_id": "b00d781c-fd76-42f4-a86c-4881c2ca7350",
+		"name": "VacationHub",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "32658567"
+	},
+	"item": [
+		{
+			"name": "Vacations",
+			"item": [
+				{
+					"name": "Get All Vacations",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2MDA0Y2FjYjIwZTI1NGVmMTNiYmZkMSIsImZpcnN0TmFtZSI6ImxpcmkiLCJsYXN0TmFtZSI6InNvYm9sIiwiZW1haWwiOiJ0ZXN0QGdtYWlsLmNvbSIsInJvbGUiOjEsImlhdCI6MTcxMTI5NTc2OSwiZXhwIjoxNzExMzEzNzY5fQ.1_KaZm1wTII8YeJ47Kfghrww2t_crSmSHPTXPgfIEpM",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:4000/api/vacations",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "4000",
+							"path": [
+								"api",
+								"vacations"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get Vacation By Id",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2MWQyOWIzOWQ5NWJlY2I0YWYxZGYwMSIsImZpcnN0TmFtZSI6IkxpcmkiLCJsYXN0TmFtZSI6IlNvYm9sIiwiZW1haWwiOiJhZG1pbkBhZG1pbi5jb20iLCJyb2xlIjoxLCJpYXQiOjE3MTM1MzI1OTksImV4cCI6MTcxMzU1MDU5OX0.79g0n7sx9UrKZc-TYJlOQ6JUiDc7wXZjh1nggnvarwA",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:4000/api/vacations/660012c7e9fac032751b3d1c",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "4000",
+							"path": [
+								"api",
+								"vacations",
+								"660012c7e9fac032751b3d1c"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Delete Vacation",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:4000/api/vacations/65ede46d64887f6d461f7b93",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "4000",
+							"path": [
+								"api",
+								"vacations",
+								"65ede46d64887f6d461f7b93"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Update Vacation",
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "destination",
+									"value": "Test3",
+									"type": "text"
+								},
+								{
+									"key": "description",
+									"value": "Test",
+									"type": "text"
+								},
+								{
+									"key": "startDate",
+									"value": "2024-03-07T23:32:55.524+00:00",
+									"type": "text"
+								},
+								{
+									"key": "endDate",
+									"value": "2024-04-29T09:20:09.524+00:00",
+									"type": "text"
+								},
+								{
+									"key": "price",
+									"value": "3258",
+									"type": "text"
+								},
+								{
+									"key": "image",
+									"type": "file",
+									"src": "postman-cloud:///1eedfd7f-bf7f-4c80-8b1b-03286aa706fe"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://localhost:4000/api/vacations/65ede46d64887f6d461f7b93",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "4000",
+							"path": [
+								"api",
+								"vacations",
+								"65ede46d64887f6d461f7b93"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Add Vacation",
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "    {\r\n        \"destination\": \"Tokyo\",\r\n        \"description\": \"Dive into the futuristic vibe of Tokyo!\",\r\n        \"startDate\": \"2024-09-13\",\r\n        \"endDate\": \"2024-09-18\",\r\n        \"price\": 8075\r\n    }",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:4000/api/vacations",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "4000",
+							"path": [
+								"api",
+								"vacations"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get Image File",
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:4000/api/vacations/images/83e4c011-59da-41c4-a20f-55be603a198e.jpg",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "4000",
+							"path": [
+								"api",
+								"vacations",
+								"images",
+								"83e4c011-59da-41c4-a20f-55be603a198e.jpg"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Auth",
+			"item": [
+				{
+					"name": "Register",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"firstName\": \"Liri\",\r\n    \"lastName\": \"Admin\",\r\n    \"email\": \"liri-admin2@example.com\",\r\n    \"password\": \"Qqww112@\",\r\n    \"role\": 1\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:4000/api/register",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "4000",
+							"path": [
+								"api",
+								"register"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Login",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"email\": \"test@gmail.com\",\r\n    \"password\": \"123123\"\r\n}\r\n",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:4000/api/login",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "4000",
+							"path": [
+								"api",
+								"login"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Likes",
+			"item": [
+				{
+					"name": "Check Like",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2MDA0Y2FjYjIwZTI1NGVmMTNiYmZkMSIsImZpcnN0TmFtZSI6ImxpcmkiLCJsYXN0TmFtZSI6InNvYm9sIiwiZW1haWwiOiJ0ZXN0QGdtYWlsLmNvbSIsInJvbGUiOjEsImlhdCI6MTcxMTI5NTc2OSwiZXhwIjoxNzExMzEzNzY5fQ.1_KaZm1wTII8YeJ47Kfghrww2t_crSmSHPTXPgfIEpM",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:4000/api/likes/check/660012abe9fac032751b3d13",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "4000",
+							"path": [
+								"api",
+								"likes",
+								"check",
+								"660012abe9fac032751b3d13"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Like",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2MDA0Y2FjYjIwZTI1NGVmMTNiYmZkMSIsImZpcnN0TmFtZSI6ImxpcmkiLCJsYXN0TmFtZSI6InNvYm9sIiwiZW1haWwiOiJ0ZXN0QGdtYWlsLmNvbSIsInJvbGUiOjEsImlhdCI6MTcxMTI5NTc2OSwiZXhwIjoxNzExMzEzNzY5fQ.1_KaZm1wTII8YeJ47Kfghrww2t_crSmSHPTXPgfIEpM",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:4000/api/likes/66224694da2b49daeb9b2f5e",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "4000",
+							"path": [
+								"api",
+								"likes",
+								"66224694da2b49daeb9b2f5e"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Unlike",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2MDA0Y2FjYjIwZTI1NGVmMTNiYmZkMSIsImZpcnN0TmFtZSI6ImxpcmkiLCJsYXN0TmFtZSI6InNvYm9sIiwiZW1haWwiOiJ0ZXN0QGdtYWlsLmNvbSIsInJvbGUiOjEsImlhdCI6MTcxMTI5NTc2OSwiZXhwIjoxNzExMzEzNzY5fQ.1_KaZm1wTII8YeJ47Kfghrww2t_crSmSHPTXPgfIEpM",
+									"type": "string"
+								}
+							]
+						},
+						"method": "DELETE",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:4000/api/likes/66224694da2b49daeb9b2f5e",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "4000",
+							"path": [
+								"api",
+								"likes",
+								"66224694da2b49daeb9b2f5e"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Count Likes",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:4000/api/likes/count/660012abe9fac032751b3d13",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "4000",
+							"path": [
+								"api",
+								"likes",
+								"count",
+								"660012abe9fac032751b3d13"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,56 @@
+
+
+.HeroSection {
+    height: 100vh; /* ensure the section takes up the full viewport height */
+    background-image: url("../../../Assets/Images/main-background.png");
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.title {
+    font-size: 6rem;
+    color: white;
+    margin-bottom: 0.5rem;
+}
+
+.short-phrase {
+    font-size: 1.7rem;
+    color: white;
+    margin-bottom: 1rem;
+}
+
+/* Responsive adjustments  */
+@media (max-width: 768px) {
+
+    .title {
+        font-size: 4rem;
+    }
+    .short-phrase {
+        font-size: 1.4rem;
+    }
+}
+
+@media (max-width: 590px) {
+
+    .title {
+        font-size: 3rem; 
+    }
+    .short-phrase {
+        font-size: 1.3rem;
+    }
+}
+
+@media (max-width: 440px) {
+
+    .title {
+        font-size: 2.5rem; 
+    }
+    .short-phrase {
+        font-size: 1.1rem;
+    }
+}

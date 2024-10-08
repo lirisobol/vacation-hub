@@ -1,0 +1,7 @@
+.Register {
+    height: 100%;
+    background-image: url("../../../Assets/Images/main-background.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}

@@ -1,0 +1,59 @@
+html, body, #root, .Layout, .main-content, .Routing  {
+    /* All Flex Parents Set To 100%, let child contents take full container*/
+    margin: 0;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    font-family: poppins;
+}
+/* Add & Edit Form */
+/* -------------------------------------------------------------------------- */
+.form-logo {
+    width: 120px;
+    padding: 0;
+    margin: 0;
+}
+/* Adjust error message styling */
+.alert-danger {
+    font-size: 0.8rem; /* Smaller font size */
+    margin-top: -0.7rem;
+    margin-bottom: 1rem;
+    padding: 5px;
+    width: 100%;
+    text-align: center;
+}
+.date-alert {
+    margin-top: 0.1rem;
+}
+.image-selection-container > img {
+    object-fit: cover;
+    height: 250px;
+    width: 100%;
+}
+
+/* Fade-in effect to set on pages */
+.fade-in-slow {
+    animation: fadeIn 1.5s;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+/* Fade-in effect to set on pages */
+.fade-in-fast {
+    animation: fadeIn 1s;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}

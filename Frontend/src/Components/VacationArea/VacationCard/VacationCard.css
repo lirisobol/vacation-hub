@@ -1,0 +1,61 @@
+.vacation-card {
+    width: 32.8vw; /* Ensures it fills the designated space */
+    height: 600px;
+    overflow: hidden; /* Ensures no overflow from child elements */
+    margin-bottom: 3px;
+    border: 1px solid;
+    border-radius: 7px;
+    /* background-image: url("../../../Assets/Images/card-background.png"); */
+    background-position: center center;
+    background-repeat: repeat;
+    background-size:contain;
+}
+.vacation-description {
+    height: 25%;
+}
+
+.card-image-container {
+    margin: 0;
+    width: 100%; /* Full width of the card */
+    height: 300px; /* Fixed height */
+    border-radius: 7px;
+    overflow: hidden; /* Prevents image from overflowing */
+    display: flex;
+    align-items: start; /* Centers the image vertically */
+    justify-content: center; /* Centers the image horizontally */
+}
+
+.card-image {
+    object-fit: cover;
+    width: 100%; /* Scales image to fill the container width */
+    height: 100%;
+}
+
+.card-controls-container {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+/* LG devices (992px to 1199px) */
+@media (max-width: 991px) {
+    .vacation-card {
+        width: 49vw;
+    }
+}
+
+/* MD devices (768px to 991px) */
+@media (max-width: 767px) {
+    .vacation-card {
+        width: 49vw;
+    }
+    /* More styles for md devices */
+}
+
+
+/* XS devices (up to 575px) */
+@media (max-width: 575px) {
+    .vacation-card {
+        width: 97vw;
+    }
+    /* More styles for xs devices */
+}
