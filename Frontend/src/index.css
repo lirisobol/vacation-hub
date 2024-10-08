@@ -4,7 +4,7 @@ html, body, #root, .Layout, .main-content, .Routing  {
     height: 100%;
     width: 100%;
     text-align: center;
-    font-family: poppins;
+    font-family: "Roboto", sans-serif;
 }
 /* Add & Edit Form */
 /* -------------------------------------------------------------------------- */
